@@ -1,0 +1,246 @@
+/* CSS for SkillsPage and ProjectPage */
+.proPageParent,
+.skillsPageParent {
+  width: full;
+  background-color: var(--background);
+}
+
+.proPage {
+  margin: 0 auto;
+  width: 1024px;
+  margin-top: 53px;
+  margin-bottom: 53px;
+}
+
+.skillsPage {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.proPageHead {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: 16px;
+}
+
+.proPageHead p span,
+.proSetHeads p span,
+.skillsHeadSec p span,
+.conPageHeader p span:nth-child(1),
+.otherMedias p span,
+.formHeader p span {
+  color: var(--primary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.proPageHead p:nth-child(1),
+.proSetHeads p,
+.skillsHeadSec p,
+.conPageHeader p:nth-child(1),
+.otherMedias p:nth-child(1),
+.formHeader p {
+  color: var(--white);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.proPageHead p:nth-child(2),
+.conPageHeader p:nth-child(2),
+.conPageHeader p span:nth-child(2) {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.proPage {
+  margin-top: 34px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.proCardSet {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(184px, 1fr));
+  grid-gap: 16px;
+}
+
+.AbtMe {
+  margin-top: 68px;
+  margin-bottom: 68px;
+}
+
+.table {
+  border: 1px solid var(--gray);
+  max-height: 124px;
+}
+
+.skillsHeadSec {
+  margin-bottom: 24px;
+}
+
+.conPageHeader {
+  width: full;
+  margin-top: 68px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableHeader {
+  display: flex;
+  padding: 8px 8px;
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom: 1px solid var(--gray);
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.tableDesc {
+  display: flex;
+  width: 178px;
+  padding: 8px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--gray);
+}
+
+/* CSS for ContactPage */
+.conPageParent {
+  width: full;
+  background-color: var(--background);
+}
+
+.conPage {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.otherCon {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  border: 1px solid var(--gray);
+  padding: 16px 12px;
+}
+
+.otherMedias {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.otherMeds {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.otherMed {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.otherMed img {
+  width: 32px;
+  height: 32px;
+}
+
+.otherMed p {
+  color: var(--gray, #abb2bf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* CSS for contact form */
+
+form {
+  display: flex;
+  width: 569px;
+  height: 342px;
+  padding: 32px;
+  margin: 0 0 0 450px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border: 1px solid var(--gray);
+  margin-bottom: 32px;
+}
+
+.formHeader {
+  margin: 0 0 0 450px;
+  padding-bottom: 32px;
+}
+
+.nameAndEmail {
+  display: flex;
+  gap: 16px;
+}
+
+form input,
+form textarea {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  border: 1px solid var(--gray, #abb2bf);
+  gap: 8px;
+  background: transparent;
+  width: fit-content;
+  font-size: 16px;
+  color: var(--white);
+}
+
+form input:focus,
+form textarea:focus,
+form:focus {
+  outline: none;
+  border: 1px solid var(--primary);
+}
+
+form input:hover,
+form textarea:hover,
+form:hover {
+  border: 1px solid var(--primary);
+}
+
+.Name,
+.email {
+  width: 244px;
+}
+
+.title {
+  display: flex;
+  width: 505px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.textMsg {
+  display: flex;
+  width: 505px;
+  height: 119px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+}

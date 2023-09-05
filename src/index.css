@@ -1,0 +1,21 @@
+:root {
+  --background: #282c33;
+  --gray: #abb2bf;
+  --white: #fff;
+  --primary: #c778dd;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  /* Fira Code font family */
+  font-family: "Fira Code", monospace;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Tomorrow", sans-serif;
+}
