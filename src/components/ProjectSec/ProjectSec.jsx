@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { MajorProjectsData } from "../Data";
-import ProjectCard from "../components/ProjectCard";
-import Line1 from "../images/SVGs/Line1.svg";
-import "./components.css";
+import { ReactProjectsData } from "../../Data";
+import ProjectCard from "../ProjectCard/ProjectCard";
+import Line1 from "../../images/SVGs/Line1.svg";
+import "./projectsec.css";
 
 function ProjectSec() {
   return (
@@ -20,7 +20,7 @@ function ProjectSec() {
           </Link>
         </div>
         <div className="proCardSec">
-          {MajorProjectsData.map((proData) => (
+          {ReactProjectsData.map((proData) => (
             <ProjectCard key={proData.id} proData={proData} />
           ))}
         </div>

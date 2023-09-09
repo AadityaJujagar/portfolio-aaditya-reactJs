@@ -1,9 +1,9 @@
 import React from "react";
-import Line2 from "../images/SVGs/Line2.svg";
-import DotsFrame1 from "../images/SVGs/DotsFrame1.svg";
-import RectSquare from "../images/SVGs/Rectangle.svg";
-import Logo from "../images/SVGs/Logo.svg";
-import "./components.css";
+import Line2 from "../../images/SVGs/Line2.svg";
+import DotsFrame1 from "../../images/SVGs/DotsFrame1.svg";
+import RectSquare from "../../images/SVGs/Rectangle.svg";
+import Logo from "../../images/SVGs/Logo.svg";
+import "./skillssec.css";
 
 function SkillsSec() {
   return (

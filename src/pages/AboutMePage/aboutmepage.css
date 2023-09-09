@@ -1,0 +1,91 @@
+.skillsPageParent {
+  width: full;
+  background-color: var(--background);
+}
+
+.skillsPage {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.skillsHeadSec p span {
+  color: var(--primary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.skillsHeadSec p {
+  color: var(--white);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.AbtMe {
+  margin-top: 68px;
+  margin-bottom: 68px;
+}
+
+.table {
+  border: 1px solid var(--gray);
+  max-height: 124px;
+}
+
+.skillsHeadSec {
+  margin-bottom: 24px;
+}
+
+.tableHeader {
+  display: flex;
+  padding: 8px 8px;
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom: 1px solid var(--gray);
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.tableDesc {
+  display: flex;
+  width: 178px;
+  padding: 8px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--gray);
+}
+
+.skillsPageParent {
+  position: relative;
+}
+
+.strokeSec {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-left: 16.25px;
+}
+
+.strokeSec a {
+  transition: all 0.3s ease-out;
+}
+.strokeSec a:hover {
+  scale: 0.8;
+}
+
+@media (max-width: 1366px) {
+  .skillsPageParent .strokeSec {
+    display: none;
+  }
+}

@@ -1,0 +1,106 @@
+/* CSS for Project Section */
+.projectParent {
+  background-color: var(--background);
+  width: full;
+}
+
+.projectSec {
+  width: 1024px;
+  margin: 48px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.projectHeadSec {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 16px;
+}
+
+.projectHead span {
+  color: var(--primary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.projectHead {
+  color: var(--white);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.proViewAll {
+  border: none;
+  background-color: transparent;
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: ease-out 0.3s;
+  cursor: pointer;
+  margin-left: 230px;
+}
+
+.proViewAll:hover {
+  color: var(--primary);
+}
+
+.proCardSec {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* for small screen laptops */
+@media (max-width: 1366px) {
+  .projectSec {
+    padding: 16px;
+  }
+  .projectHeadSec {
+    display: flex;
+    justify-content: space-between;
+  }
+  .projectHeadSec img {
+    display: none;
+  }
+}
+
+/* for large screen tablets */
+@media (max-width: 1024px) {
+  .projectSec {
+    padding: 16px;
+  }
+  .projectSec {
+    height: auto;
+    width: auto;
+  }
+  .projectHeadSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .proViewAll {
+    margin-left: 24px;
+  }
+  .proCardSec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .proCardSec {
+    width: full;
+  }
+}

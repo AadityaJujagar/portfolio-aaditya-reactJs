@@ -1,0 +1,129 @@
+/* CSS for Navbar */
+.navParent {
+  width: full;
+  background: var(--background);
+}
+
+.navbar {
+  margin: 0 auto;
+  display: flex;
+  width: 1024px;
+  padding: 32px 16px 8px 16px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nameLogoSec {
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  gap: 5px;
+}
+
+.name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--white);
+  width: 70px;
+}
+
+.name span {
+  font-size: 24px;
+  color: var(--primary);
+}
+
+.navElements {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.navEle {
+  display: flex;
+  font-size: 16px;
+  color: var(--gray);
+  transition: all 0.18s ease-in-out;
+}
+
+.navEle:hover {
+  color: lightgrey;
+}
+
+.navEle span {
+  font-size: 16px;
+  color: var(--primary);
+}
+
+.menuIcons {
+  padding: 0 16px;
+  visibility: hidden;
+}
+
+.activate {
+  color: var(--white);
+}
+
+/* mp/cb/b-br/f-fw/hw */
+
+/* for small screen laptops */
+@media (max-width: 1366px) {
+  .navbar {
+    width: auto;
+    padding-top: 28px;
+  }
+  .nameLogoSec {
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #aboutme,
+  #contactme {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nameLogoSec {
+    margin-left: 0;
+  }
+}
+
+/* for regular screen tablets */
+@media (max-width: 767px) {
+  .navbar {
+    padding-top: 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+    width: auto;
+    margin-bottom: 32px;
+  }
+  .navElements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #aboutme,
+  #contactme {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nameLogoSec {
+    margin-left: 0;
+  }
+}
+
+/* for regular mobile screens */
+@media (max-width: 480px) {
+  .navbar {
+    padding-top: 12px;
+  }
+  .nameLogoSec {
+    margin-left: 0;
+  }
+}

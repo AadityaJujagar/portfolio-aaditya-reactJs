@@ -1,10 +1,36 @@
 import React from "react";
-import AboutMeSec from "../components/AboutMeSec";
-import "./pages.css";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import AboutMeSec from "../../components/AboutMeSec/AboutMeSec";
+import StrokeLine from "../../images/SVGs/LineStroke.svg";
+import GitHub from "../../images/SVGs/Github.svg";
+import LinkedIn from "../../images/SVGs/Linkedin.svg";
+import "./aboutmepage.css";
 
 function AboutMePage() {
   return (
     <div className="skillsPageParent">
+      {/* stroke images */}
+      <div className="strokeSec">
+        <img src={StrokeLine} alt="" />
+        <a
+          className="GitHubAnchor"
+          target="_"
+          href="https://github.com/AadityaJujagar/"
+        >
+          <img src={GitHub} alt="" />
+        </a>
+        <a
+          className="LinkedInAnchor"
+          target="_"
+          href="https://linkedin.com/in/aaditya-jujagar"
+        >
+          <img src={LinkedIn} alt="" />
+        </a>
+      </div>
+
+      {/* navbar */}
+      <Navbar />
       <section className="skillsPage">
         {/* about-me section */}
         <div className="AbtMe">
@@ -43,6 +69,8 @@ function AboutMePage() {
           </div>
         </div>
       </section>
+      {/* footer */}
+      <Footer />
     </div>
   );
 }

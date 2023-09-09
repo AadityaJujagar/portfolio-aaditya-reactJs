@@ -1,5 +1,5 @@
 import React from "react";
-import "./components.css";
+import "./projectcard.css";
 
 function ProjectCard({ proData }) {
   return (
@@ -17,7 +17,7 @@ function ProjectCard({ proData }) {
           </button>
           <button id="btn2">
             <a href={proData.srcLink} target="_">
-              Github {"<~~>"}
+              Github {"</>"}
             </a>
           </button>
         </div>

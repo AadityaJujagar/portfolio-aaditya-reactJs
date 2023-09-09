@@ -1,23 +1,19 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import HomePage from "./pages/HomePage";
-import ProjectsPage from "./pages/ProjectsPage";
-import AboutMePage from "./pages/AboutMePage";
-import ContactsPage from "./pages/ContactsPage";
-import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage/HomePage";
+import ProjectsPage from "./pages/ProjectPage/ProjectsPage";
+import AboutMePage from "./pages/AboutMePage/AboutMePage";
+import ContactsPage from "./pages/ContactsPage/ContactsPage";
 
 function App() {
   return (
     <div>
-      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projectspage" element={<ProjectsPage />} />
         <Route path="/aboutmepage" element={<AboutMePage />} />
         <Route path="/contactspage" element={<ContactsPage />} />
       </Routes>
-      <Footer />
     </div>
   );
 }

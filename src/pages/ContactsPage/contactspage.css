@@ -1,34 +1,3 @@
-/* CSS for SkillsPage and ProjectPage */
-.proPageParent,
-.skillsPageParent {
-  width: full;
-  background-color: var(--background);
-}
-
-.proPage {
-  margin: 0 auto;
-  width: 1024px;
-  margin-top: 53px;
-  margin-bottom: 53px;
-}
-
-.skillsPage {
-  margin: 0 auto;
-  width: 1024px;
-}
-
-.proPageHead {
-  margin-top: 48px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  gap: 16px;
-}
-
-.proPageHead p span,
-.proSetHeads p span,
-.skillsHeadSec p span,
 .conPageHeader p span:nth-child(1),
 .otherMedias p span,
 .formHeader p span {
@@ -39,9 +8,6 @@
   line-height: normal;
 }
 
-.proPageHead p:nth-child(1),
-.proSetHeads p,
-.skillsHeadSec p,
 .conPageHeader p:nth-child(1),
 .otherMedias p:nth-child(1),
 .formHeader p {
@@ -52,7 +18,6 @@
   line-height: normal;
 }
 
-.proPageHead p:nth-child(2),
 .conPageHeader p:nth-child(2),
 .conPageHeader p span:nth-child(2) {
   color: #fff;
@@ -62,67 +27,6 @@
   line-height: normal;
 }
 
-.proPage {
-  margin-top: 34px;
-  gap: 24px;
-  display: flex;
-  flex-direction: column;
-}
-
-.proCardSet {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(184px, 1fr));
-  grid-gap: 16px;
-}
-
-.AbtMe {
-  margin-top: 68px;
-  margin-bottom: 68px;
-}
-
-.table {
-  border: 1px solid var(--gray);
-  max-height: 124px;
-}
-
-.skillsHeadSec {
-  margin-bottom: 24px;
-}
-
-.conPageHeader {
-  width: full;
-  margin-top: 68px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.tableHeader {
-  display: flex;
-  padding: 8px 8px;
-  align-items: flex-start;
-  align-self: stretch;
-  border-bottom: 1px solid var(--gray);
-  color: var(--white, #fff);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.tableDesc {
-  display: flex;
-  width: 178px;
-  padding: 8px 8px;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: var(--gray);
-}
-
-/* CSS for ContactPage */
 .conPageParent {
   width: full;
   background-color: var(--background);
@@ -133,12 +37,33 @@
   margin: 0 auto;
 }
 
+.conPageHeader {
+  margin-top: 68px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .otherCon {
   display: flex;
   gap: 4px;
+  width: 320px;
   align-items: center;
   border: 1px solid var(--gray);
   padding: 16px 12px;
+}
+
+.otherCon a {
+  color: var(--gray);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.otherCon a:hover {
+  color: var(--white);
 }
 
 .otherMedias {
@@ -156,7 +81,7 @@
 .otherMed {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 16px;
 }
 
 .otherMed img {
@@ -164,15 +89,44 @@
   height: 32px;
 }
 
-.otherMed p {
+.otherMed a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.otherMed a {
   color: var(--gray, #abb2bf);
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: all 0.3s ease-in-out;
 }
 
-/* CSS for contact form */
+.otherMed a:hover {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.strokeSec {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-left: 16.25px;
+}
+
+.strokeSec a {
+  transition: all 0.3s ease-out;
+}
+.strokeSec a:hover {
+  scale: 0.8;
+}
 
 form {
   display: flex;
@@ -188,7 +142,7 @@ form {
 }
 
 .formHeader {
-  margin: 0 0 0 450px;
+  margin: -80px 0 0 450px;
   padding-bottom: 32px;
 }
 
@@ -243,4 +197,62 @@ form:hover {
   padding: 8px;
   align-items: flex-start;
   gap: 8px;
+}
+
+.conPageParent {
+  position: relative;
+}
+
+form button {
+  display: inline-flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid var(--gray);
+  transition: 0.18s ease-out;
+  background: transparent;
+}
+
+form button:hover {
+  background: rgba(199, 120, 221, 0.2);
+  border: 1px solid var(--primary, #c778dd);
+}
+
+form button p {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+form button p span {
+  color: var(--primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 1366px) {
+  .conPageParent .strokeSec {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .conPage,
+  .conPageHeader {
+    display: flex;
+    flex-direction: column;
+  }
+  form {
+    margin: 0;
+  }
+  .otherMedias {
+    visibility: hidden;
+  }
+  .formHeader {
+    margin: -80px 0 0 48px;
+  }
 }

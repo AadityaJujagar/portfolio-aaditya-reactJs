@@ -1,0 +1,115 @@
+.proPageParent {
+  width: full;
+  background-color: var(--background);
+}
+
+.proPage {
+  margin: 0 auto;
+  width: 1024px;
+  margin-top: 53px;
+  margin-bottom: 53px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.proPageHead {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: 16px;
+}
+
+.proPageHead p span,
+.proSetHeads p span {
+  color: var(--primary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.proPageHead p:nth-child(1),
+.proSetHeads p {
+  color: var(--white);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.proPageHead p:nth-child(2) {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.proCardSet {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(184px, 1fr));
+  grid-gap: 16px;
+}
+
+.proPageParent {
+  position: relative;
+}
+
+.strokeSec {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-left: 16.25px;
+}
+
+.strokeSec a {
+  transition: all 0.3s ease-out;
+}
+.strokeSec a:hover {
+  scale: 0.8;
+}
+
+@media (max-width: 1366px) {
+  .proPage {
+    padding: 16px;
+  }
+  .proCardSet {
+    display: flex;
+  }
+  .proPageParent .strokeSec {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .proCardSet {
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    grid-gap: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .proCardSet {
+    display: grid;
+    grid-template-columns: repeat(1, 330px);
+    grid-gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .proCardSet {
+    display: grid;
+    grid-template-columns: repeat(1, 280px);
+    grid-gap: 16px;
+  }
+  .proPage {
+    margin: 0;
+    padding: 0;
+  }
+}

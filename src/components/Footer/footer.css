@@ -1,0 +1,167 @@
+/* CSS for Footer */
+.footerParent {
+  width: full;
+  background-color: var(--background);
+  height: 208px;
+}
+
+.footerParentImg {
+  width: full;
+  height: 1px;
+  background-color: var(--gray);
+}
+
+footer {
+  padding: 50px 0;
+  display: flex;
+  width: 1025px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footConParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.footCon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.footName {
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  gap: 5px;
+}
+
+.footName p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--white);
+}
+
+.footName p span {
+  font-size: 24px;
+  color: var(--primary);
+}
+
+.footCon a {
+  color: var(--gray, #abb2bf);
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all 0.3s ease-in-out;
+}
+
+.footCon a:hover {
+  color: var(--white);
+}
+
+.footRole {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.footMedia h1 {
+  color: var(--white, #fff);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footMedia .footMediaIco {
+  display: flex;
+  align-items: center;
+}
+
+.footMediaIco a img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  transition: all 0.3s ease-out;
+}
+
+.footMediaIco a img:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.footMediaIco a img:hover {
+  transform: scale(0.8);
+}
+
+/* for small screen laptops */
+@media (max-width: 1366px) {
+  footer {
+    padding: 32px 32px 8px 32px;
+  }
+}
+
+/* regular screen tablets */
+@media (max-width: 1024px) {
+  footer {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: coloumn;
+    align-items: flex-start;
+  }
+}
+
+/* for regular */
+@media (max-width: 768px) {
+  h1 {
+    display: none;
+  }
+  .footMediaIco {
+    padding-top: 32px;
+  }
+}
+
+/* for mobile screens */
+@media (max-width: 360px) {
+  .footerParent {
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .footName {
+    display: flex;
+  }
+  p {
+    font-size: 16px;
+  }
+  p span {
+    font-size: 14px;
+  }
+  .footCon {
+    display: flex;
+    flex-direction: column;
+  }
+}

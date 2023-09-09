@@ -1,0 +1,144 @@
+/* Contacts-section */
+.conSecParent {
+  width: full;
+  background-color: var(--background);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactSec {
+  width: 1024px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.contactHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contactHeader p span {
+  color: var(--primary, #c778dd);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactHeader p {
+  color: var(--white, #fff);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactDesc {
+  color: var(--gray, #abb2bf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 505px;
+}
+
+.conItems {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 320px;
+  border: 1px solid var(--gray, #abb2bf);
+}
+
+.msgMe {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.linkedIn,
+.Phone,
+.Gmail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.linkedIn a,
+.Gmail a,
+.Phone a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hrefText {
+  color: var(--gray, #abb2bf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all 0.3s ease-out;
+}
+
+.hrefText:hover {
+  color: var(--white);
+}
+
+/* for small screen laptops */
+@media (max-width: 1366px) {
+  .contactSec {
+    padding: 32px 32px 8px 32px;
+  }
+  .contactHeader img {
+    display: none;
+  }
+}
+
+/* for large screen tablets */
+@media (max-width: 1024px) {
+  .conMain {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .contactSec {
+    padding: 0 8px;
+  }
+  .conItems,
+  .contactDesc {
+    max-width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Gmail a {
+    font-size: 14px;
+  }
+  .conItems {
+    border: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+}
