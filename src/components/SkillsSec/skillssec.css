@@ -55,7 +55,7 @@
   height: 63px;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 
@@ -68,7 +68,7 @@
   height: 63px;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 
@@ -136,7 +136,7 @@
 .tableHeader {
   display: flex;
   padding: 8px 8px;
-  align-items: start;
+  align-items: flex-start;
   align-self: stretch;
   border-bottom: 1px solid var(--gray);
   color: var(--white, #fff);
@@ -151,7 +151,7 @@
   width: 178px;
   padding: 8px 8px;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -189,7 +189,7 @@
   }
   .skillsMain .skillsTables {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
   }
 }
 

@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   justify-content: first baseline;
-  align-items: start;
+  align-items: flex-start;
   margin: auto 0;
 }
 
@@ -54,7 +54,7 @@
   border: 1px solid var(--primary);
   display: inline-flex;
   padding: 12px 20px;
-  align-items: start;
+  align-items: flex-start;
   color: var(--white);
   margin: 24px auto 0 0;
   font-size: 16px;
@@ -94,7 +94,7 @@
   height: 84px;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   flex-shrink: 0;
   top: 268px;
   left: 342px;

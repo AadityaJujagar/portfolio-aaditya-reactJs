@@ -54,9 +54,10 @@
 
 .proCardSec {
   display: inline-flex;
-  align-items: start;
+  align-items: flex-start;
   gap: 16px;
   justify-content: center;
+  
 }
 
 /* for small screen laptops */
@@ -85,8 +86,8 @@
   .projectHeadSec {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .proViewAll {
     margin-left: 24px;

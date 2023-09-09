@@ -56,7 +56,7 @@
   display: inline-flex;
   padding: 16px;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 16px;
   width: 320px;
   border: 1px solid var(--gray, #abb2bf);
@@ -76,7 +76,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  align-items: flexstart;
+  align-items: flex-start;
   gap: 8px;
 }
 

@@ -135,7 +135,7 @@ form {
   padding: 32px;
   margin: 0 0 0 450px;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 16px;
   border: 1px solid var(--gray);
   margin-bottom: 32px;
@@ -155,7 +155,7 @@ form input,
 form textarea {
   display: flex;
   padding: 8px;
-  align-items: start;
+  align-items: flex-start;
   border: 1px solid var(--gray, #abb2bf);
   gap: 8px;
   background: transparent;
@@ -186,7 +186,7 @@ form:hover {
   display: flex;
   width: 505px;
   padding: 8px;
-  align-items: start;
+  align-items: flex-start;
   gap: 8px;
 }
 
@@ -195,7 +195,7 @@ form:hover {
   width: 505px;
   height: 119px;
   padding: 8px;
-  align-items: start;
+  align-items: flex-start;
   gap: 8px;
 }
 
@@ -206,7 +206,7 @@ form:hover {
 form button {
   display: inline-flex;
   padding: 8px 16px;
-  align-items: start;
+  align-items: flex-start;
   gap: 10px;
   border: 1px solid var(--gray);
   transition: 0.18s ease-out;

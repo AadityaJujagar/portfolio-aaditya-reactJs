@@ -55,7 +55,7 @@
 .abtMeDesc button {
   display: inline-flex;
   padding: 12px 20px;
-  align-items: start;
+  align-items: flex-start;
   gap: 10px;
   border: 1px solid var(--primary, #c778dd);
   transition: ease-out 0.18s;
@@ -83,7 +83,7 @@
   height: 84px;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 
@@ -97,14 +97,14 @@
   height: 56px;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 
 #abtMeImg3 {
   position: absolute;
   z-index: 1;
-  left: 578px;
+  left: 550px;
   top: 38px;
   flex-shrink: 0;
   scale: 0.9;
@@ -136,7 +136,7 @@
 @media (max-width: 1024px) {
   .abtMeSec {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     height: auto;
     width: auto;
   }

@@ -38,7 +38,7 @@
 
 .navElements {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   gap: 32px;
 }
 
