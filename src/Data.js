@@ -20,7 +20,7 @@ export const ReactProjectsData = [
     title: "Portfolio | Aaditya Jujagar",
     description:
       "This is a portfolio website of Aaditya, which is a SAP, made of multiple components of React.Js",
-    liveLink: "https://www.google.com",
+    liveLink: "https://sparkly-stroopwafel-2c22c8.netlify.app/",
     srcLink: "https://github.com/AadityaJujagar/portfolio-aaditya-reactJs",
   },
   {
