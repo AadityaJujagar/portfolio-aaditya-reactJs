@@ -84,6 +84,7 @@
 }
 
 .heroImg {
+  transform: scale(0.85);
   flex-shrink: 0;
 }
 

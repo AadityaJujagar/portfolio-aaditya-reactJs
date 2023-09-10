@@ -1,6 +1,5 @@
 import React from "react";
 import HeroImg2 from "../../images/projectPics/Aaditya1.png";
-import Line2 from "../../images/SVGs/Line2.svg";
 import DotsFrame1 from "../../images/SVGs/DotsFrame1.svg";
 import DotsFrame2 from "../../images/SVGs/DotsFrame2.svg";
 import "./aboutmesec.css";
@@ -13,7 +12,6 @@ function AboutMeSec() {
           <p>
             <span>#</span>about-me
           </p>
-          <img src={Line2} alt="" />
         </div>
         <div className="abtMeDesc">
           <p>Hello, i'm Aaditya!</p>
@@ -57,7 +55,6 @@ function AboutMeSec() {
         <img id="abtMeImg1" src={DotsFrame1} alt="" />
         <img id="abtMeImg2" src={DotsFrame2} alt="" />
         <img id="abtMeImg3" src={HeroImg2} alt="" />
-        <img id="abtMeImg4" src={Line2} alt="" />
       </section>
     </div>
   );
