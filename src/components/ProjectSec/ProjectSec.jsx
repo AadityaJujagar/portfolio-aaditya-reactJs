@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { ReactProjectsData } from "../../Data";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import Line1 from "../../images/SVGs/Line1.svg";
@@ -15,9 +14,6 @@ function ProjectSec() {
             projects
           </p>
           <img src={Line1} alt="" />
-          <Link to="/projectspage">
-            <button className="proViewAll">View all {"~~>"}</button>
-          </Link>
         </div>
         <div className="proCardSec">
           {ReactProjectsData.map((proData) => (
