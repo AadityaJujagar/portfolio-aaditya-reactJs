@@ -10,7 +10,7 @@ import {
 } from "../../Data";
 import StrokeLine from "../../images/SVGs/LineStroke.svg";
 import GitHub from "../../images/SVGs/Github.svg";
-import LinkedIn from "../../images/SVGs/Linkedin.svg";
+// import LinkedIn from "../../images/SVGs/Linkedin.svg";
 import "./projectpage.css";
 
 function ProjectsPage() {
@@ -26,13 +26,13 @@ function ProjectsPage() {
         >
           <img src={GitHub} alt="" />
         </a>
-        <a
+        {/* <a
           className="LinkedInAnchor"
           target="_"
           href="https://linkedin.com/in/aaditya-jujagar"
         >
           <img src={LinkedIn} alt="" />
-        </a>
+        </a> */}
       </div>
 
       {/* navbar */}

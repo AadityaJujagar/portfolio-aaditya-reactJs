@@ -45,8 +45,8 @@ function AboutMeSec() {
           <br />
           <br />
           <a
-            href="https://drive.google.com/uc?export=download&id=11QbhjRcDVy3P5LwL7fVrgttbyjYSejz6"
-            download="AadityaResumeUpdated.pdf"
+            href="https://drive.google.com/file/d/11o9THa4BZLC9bQxLqW7bWFKKtLOszpMi/view?usp=sharing"
+            download="Aaditya_Resume.pdf"
             target="_"
           >
             <button>Download Resume {"<~~>"}</button>
