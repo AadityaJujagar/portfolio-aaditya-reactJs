@@ -3,10 +3,10 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import {
-  ReactProjectsData,
   JsProjectsData,
   UXProductsData,
   UIClonesData,
+  ReactMajorProjectsData,
 } from "../../Data";
 import StrokeLine from "../../images/SVGs/LineStroke.svg";
 import GitHub from "../../images/SVGs/Github.svg";
@@ -47,16 +47,16 @@ function ProjectsPage() {
           <p>List of my projects</p>
         </div>
 
-        {/* ReactJs projects list */}
+        {/* ReactJs major projects list */}
         <div className="proPage">
           <div className="proSetHeads">
             <p>
               <span>#</span>
-              React.Js projects
+              React.Js-Major-Projects
             </p>
           </div>
           <div className="proCardSet">
-            {ReactProjectsData.map((proData) => (
+            {ReactMajorProjectsData.map((proData) => (
               <ProjectCard proData={proData} key={proData.id} />
             ))}
           </div>
@@ -87,21 +87,6 @@ function ProjectsPage() {
           </div>
           <div className="proCardSet">
             {UIClonesData.map((proData) => (
-              <ProjectCard proData={proData} key={proData.id} />
-            ))}
-          </div>
-        </div>
-
-        {/* UI design projects list */}
-        <div className="proPage">
-          <div className="proSetHeads">
-            <p>
-              <span>#</span>
-              UI Design Products
-            </p>
-          </div>
-          <div className="proCardSet">
-            {UXProductsData.map((proData) => (
               <ProjectCard proData={proData} key={proData.id} />
             ))}
           </div>

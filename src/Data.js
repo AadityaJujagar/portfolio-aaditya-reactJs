@@ -1,6 +1,6 @@
+import FiverrClone from "./images/projectPics/FiverrClone.png";
+import NetNook from "./images/projectPics/NetNook.png";
 import CurrentPortfolio from "./images/projectPics/Portfolio-Aaditya-Jujagar.png";
-import TourPlanApp from "./images/projectPics/Tours-Plan-App.png";
-import TopCoursesApp from "./images/projectPics/Top-Courses-App.png";
 import WeatherApp from "./images/projectPics/Weather-Forcasting-App.png";
 import DevDetectiveApp from "./images/projectPics/Dev-Detective-GitHub.png";
 import PasswordGenerator from "./images/projectPics/Password-Generator.png";
@@ -8,13 +8,31 @@ import TicTacToeGame from "./images/projectPics/Tic-Tac-Tac-Game.png";
 import PainRelieverSite from "./images/projectPics/Pain-Reliever-Dysmenorrhea.png";
 import RazorpayClone from "./images/projectPics/Razorpay-Clone.png";
 import DiscordClone from "./images/projectPics/Discord-Clone.png";
-import ParallexWebsite from "./images/projectPics/Parallex-Website.png";
-import PreviousPortfolioUI from "./images/projectPics/Previous-Portfolio-UI.png";
-import ImageGallery from "./images/projectPics/Image-Gallery.png";
 
-export const ReactProjectsData = [
+export const ReactMajorProjectsData = [
   {
     id: 1,
+    image: FiverrClone,
+    techStack: "React.Js , Vite , React Router DOM , SAAS , HTML5 , JavaScript",
+    title: "Complete Clone of Fiverr",
+    description:
+      "Developed a comprehensive Fiverr clone app with a complete multipage user interface using Vite and React. Implemented an advanced routing system with React Router DOM in a unique manner and utilized various React hooks for enhanced functionality. Integrated SAAS for efficient styling",
+    liveLink: "https://fiverr-clone-mern-app.vercel.app/",
+    srcLink: "https://github.com/AadityaJujagar/fiverr-clone-MERN-app",
+  },
+  {
+    id: 2,
+    image: NetNook,
+    techStack:
+      "React.Js , ContextAPI , React Hooks, API integration , HTML5 , SAAS , JavaScript",
+    title: "NetNook | A Social Media Webapp",
+    description:
+      "Created a social media web app resembling platforms like Facebook, featuring user authentication (dummy login/logout) and data retrieval through API integration. Harnessed the power of React.js, including Context API and Hooks, for state management",
+    liveLink: "https://social-media-mern-app-six.vercel.app/login",
+    srcLink: "https://github.com/AadityaJujagar/social-media-MERN-app/",
+  },
+  {
+    id: 3,
     image: CurrentPortfolio,
     techStack: "HTML5 , CSS3 , JavaScript , React.Js",
     title: "Portfolio | Aaditya Jujagar",
@@ -22,27 +40,6 @@ export const ReactProjectsData = [
       "This is a portfolio website of Aaditya, which is a SAP, made of multiple components of React.Js",
     liveLink: "https://sparkly-stroopwafel-2c22c8.netlify.app/",
     srcLink: "https://github.com/AadityaJujagar/portfolio-aaditya-reactJs",
-  },
-  {
-    id: 2,
-    image: TourPlanApp,
-    techStack: "HTML5 , CSS3 , JavaScript , React.Js : Custom Hooks",
-    title: "Tour Plans With Aaditya",
-    description:
-      "A tourism template plans are provided where user can devide where to plan the tour at, the template can be used in various project as a page",
-    liveLink: "https://marvelous-unicorn-fc8190.netlify.app/",
-    srcLink: "https://github.com/AadityaJujagar/tour-plans-reactJs-app",
-  },
-  {
-    id: 3,
-    image: TopCoursesApp,
-    techStack: "HTML5 , CSS3 , JavaScript , React.Js",
-    title: "Top Courses Choice Page",
-    description:
-      "A simple top page which allows user to choose different courses according to type of course",
-    liveLink: "https://storied-parfait-cf7fd6.netlify.app/",
-    srcLink:
-      "https://github.com/AadityaJujagar/top-courses-project-using-reactJs",
   },
 ];
 
@@ -120,38 +117,5 @@ export const UIClonesData = [
     description: "A clone of replica of Discord UI using TailwindCSS framework",
     liveLink: "https://cosmic-lebkuchen-85a2dd.netlify.app/",
     srcLink: "https://github.com/AadityaJujagar/tailwind-project-2",
-  },
-];
-
-export const UXProductsData = [
-  {
-    id: 1,
-    image: ParallexWebsite,
-    techStack: "HTML5 , CSS3",
-    title: "Parallex Website",
-    description:
-      "A website created with the deeper knowledge of CSS3 which shows the parallex visuals effects",
-    liveLink: "https://aadityajujagar.github.io/parallax-website/",
-    srcLink: "https://github.com/AadityaJujagar/parallax-website",
-  },
-  {
-    id: 2,
-    image: PreviousPortfolioUI,
-    techStack: "HTML5 , CSS3",
-    title: "Portfolio UI",
-    description:
-      "A pre-built UI for a portfolio website which is publically accessible to anyone",
-    liveLink: "https://aadityajujagar.github.io/my-first-portfolio-website/",
-    srcLink: "https://github.com/AadityaJujagar/my-first-portfolio-website",
-  },
-  {
-    id: 3,
-    image: ImageGallery,
-    techStack: "HTML5 , CSS3",
-    title: "Image Gallery",
-    description:
-      "A simple design image gallery to showcase different images via a UI",
-    liveLink: "https://aadityajujagar.github.io/image-gallery/",
-    srcLink: "https://github.com/AadityaJujagar/image-gallery",
   },
 ];
