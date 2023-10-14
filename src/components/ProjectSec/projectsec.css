@@ -35,6 +35,22 @@
   line-height: normal;
 }
 
+.viewAllPro {
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.viewAllPro span {
+  color: var(--primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .proCardSec {
   display: inline-flex;
   align-items: flex-start;

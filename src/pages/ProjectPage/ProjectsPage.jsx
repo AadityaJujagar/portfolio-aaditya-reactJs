@@ -81,7 +81,7 @@ function ProjectsPage() {
           <div className="proSetHeads">
             <p>
               <span>#</span>
-              UI-Clone Products
+              UI-Clone Projects
             </p>
           </div>
           <div className="proCardSet">

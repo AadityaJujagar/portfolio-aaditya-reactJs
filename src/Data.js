@@ -1,13 +1,13 @@
 import FiverrClone from "./images/projectPics/FiverrClone.png";
 import NetNook from "./images/projectPics/NetNook.png";
 import CurrentPortfolio from "./images/projectPics/Portfolio-Aaditya-Jujagar.png";
-import WeatherApp from "./images/projectPics/Weather-Forcasting-App.png";
+import WeatherApp from "./images/projectPics/weatherApp.png";
 import DevDetectiveApp from "./images/projectPics/Dev-Detective-GitHub.png";
 import PasswordGenerator from "./images/projectPics/Password-Generator.png";
 import TicTacToeGame from "./images/projectPics/Tic-Tac-Tac-Game.png";
-import PainRelieverSite from "./images/projectPics/Pain-Reliever-Dysmenorrhea.png";
+// import PainRelieverSite from "./images/projectPics/Pain-Reliever-Dysmenorrhea.png";
 import RazorpayClone from "./images/projectPics/Razorpay-Clone.png";
-import DiscordClone from "./images/projectPics/Discord-Clone.png";
+// import DiscordClone from "./images/projectPics/Discord-Clone.png";
 
 export const ReactMajorProjectsData = [
   {
@@ -86,16 +86,16 @@ export const JsProjectsData = [
     liveLink: "https://aadityajujagar.github.io/TicTacToe-game-js-project/",
     srcLink: "https://github.com/AadityaJujagar/TicTacToe-game-js-project",
   },
-  {
-    id: 5,
-    image: PainRelieverSite,
-    techStack: "HTML5 , CSS3 , JavaScript",
-    title: "Pain-Reliever for Dysmenorrhea",
-    description:
-      "Pain reliever project for dysmenorrhea, which gives proper ideas about relieveing the pain caused by period cramps, final year project",
-    liveLink: "https://fabulous-hotteok-0e7466.netlify.app/",
-    srcLink: "https://github.com/AadityaJujagar/pain-reliever-for-dysmenorrhea",
-  },
+  // {
+  //   id: 5,
+  //   image: PainRelieverSite,
+  //   techStack: "HTML5 , CSS3 , JavaScript",
+  //   title: "Pain-Reliever for Dysmenorrhea",
+  //   description:
+  //     "Pain reliever project for dysmenorrhea, which gives proper ideas about relieveing the pain caused by period cramps, final year project",
+  //   liveLink: "https://pain-reliever-for-dysmenorrhea.vercel.app/",
+  //   srcLink: "https://github.com/AadityaJujagar/pain-reliever-for-dysmenorrhea",
+  // },
 ];
 
 export const UIClonesData = [
@@ -106,16 +106,16 @@ export const UIClonesData = [
     title: "Razorpay Site Clone | TailwindCSS",
     description:
       "A clone of replica of Razorpay UI using TailwindCSS framework",
-    liveLink: "https://precious-sundae-cee923.netlify.app/",
+    liveLink: "https://razorpay-full-ui-clone.vercel.app/",
     srcLink: "https://github.com/AadityaJujagar/tailwind-project-1",
   },
-  {
-    id: 2,
-    image: DiscordClone,
-    techStack: "HTML5 , CSS3 , TailwindCSS",
-    title: "Discord Site Clone | TailwindCSS",
-    description: "A clone of replica of Discord UI using TailwindCSS framework",
-    liveLink: "https://cosmic-lebkuchen-85a2dd.netlify.app/",
-    srcLink: "https://github.com/AadityaJujagar/tailwind-project-2",
-  },
+  // {
+  //   id: 2,
+  //   image: DiscordClone,
+  //   techStack: "HTML5 , CSS3 , TailwindCSS",
+  //   title: "Discord Site Clone | TailwindCSS",
+  //   description: "A clone of replica of Discord UI using TailwindCSS framework",
+  //   liveLink: "https://cosmic-lebkuchen-85a2dd.netlify.app/",
+  //   srcLink: "https://github.com/AadityaJujagar/tailwind-project-2",
+  // },
 ];
