@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactProjectsData } from "../../Data";
+import { ReactMajorProjectsData } from "../../Data";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import Line1 from "../../images/SVGs/Line1.svg";
 import "./projectsec.css";
@@ -16,7 +16,7 @@ function ProjectSec() {
           <img src={Line1} alt="" />
         </div>
         <div className="proCardSec">
-          {ReactProjectsData.map((proData) => (
+          {ReactMajorProjectsData.map((proData) => (
             <ProjectCard key={proData.id} proData={proData} />
           ))}
         </div>

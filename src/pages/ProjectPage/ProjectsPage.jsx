@@ -4,7 +4,6 @@ import Footer from "../../components/Footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import {
   JsProjectsData,
-  UXProductsData,
   UIClonesData,
   ReactMajorProjectsData,
 } from "../../Data";
