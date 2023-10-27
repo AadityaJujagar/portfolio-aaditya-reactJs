@@ -8,7 +8,7 @@ import ContactSec from "../../components/ContactSec/ContactSec";
 import Footer from "../../components/Footer/Footer";
 import GitHub from "../../images/SVGs/Github.svg";
 import StrokeLine from "../../images/SVGs/LineStroke.svg";
-// import LinkedIn from "../../images/SVGs/Linkedin.svg";
+import LinkedIn from "../../images/SVGs/Linkedin.svg";
 import "./homepage.css";
 
 function HomePage() {
@@ -24,13 +24,13 @@ function HomePage() {
         >
           <img src={GitHub} alt="" />
         </a>
-        {/* <a
+        <a
           className="LinkedInAnchor"
           target="_"
-          href="https://linkedin.com/in/aaditya-jujagar"
+          href="https://linkedin.com/in/aadityajujagar/"
         >
           <img src={LinkedIn} alt="" />
-        </a> */}
+        </a>
       </div>
 
       {/* navbar */}

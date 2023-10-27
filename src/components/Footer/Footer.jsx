@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import GitHub from "../../images/SVGs/Github.svg";
-// import LinkedIn from "../../images/SVGs/Linkedin.svg";
+import LinkedIn from "../../images/SVGs/Linkedin.svg";
 import Gmail from "../../images/SVGs/Gmail.svg";
 import "./footer.css";
 
@@ -34,9 +34,9 @@ function Footer() {
             <a href="https://github.com/AadityaJujagar/">
               <img src={GitHub} alt="" />
             </a>
-            {/* <a target="_" href="https://linkedin.com/in/aaditya-jujagar">
+            <a target="_" href="https://linkedin.com/in/aadityajujagar/">
               <img src={LinkedIn} alt="" />
-            </a> */}
+            </a>
             <a
               className="gmailAnchorFoot"
               target="_"
