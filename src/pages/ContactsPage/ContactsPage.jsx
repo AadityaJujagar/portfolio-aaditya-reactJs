@@ -5,7 +5,7 @@ import { toast } from "react-hot-toast";
 import ContactSec from "../../components/ContactSec/ContactSec";
 import GitHub from "../../images/SVGs/Github.svg";
 import StrokeLine from "../../images/SVGs/LineStroke.svg";
-// import LinkedIn from "../../images/SVGs/Linkedin.svg";
+import LinkedIn from "../../images/SVGs/Linkedin.svg";
 import Gmail from "../../images/SVGs/Gmail.svg";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -52,13 +52,13 @@ function ContactsPage() {
         >
           <img src={GitHub} alt="" />
         </a>
-        {/* <a
+        <a
           className="LinkedInAnchor"
           target="_"
-          href="https://linkedin.com/in/aaditya-jujagar"
+          href="https://linkedin.com/in/aadityajujagar/"
         >
           <img src={LinkedIn} alt="" />
-        </a> */}
+        </a>
       </div>
 
       {/* navbar */}
@@ -91,10 +91,10 @@ function ContactsPage() {
           </p>
           <div className="otherMeds">
             <div className="otherMed">
-              {/* <a href="https://linkedin.com/in/aaditya-jujagar">
+              <a href="https://linkedin.com/in/aadityajujagar/">
                 <img src={LinkedIn} alt="" />
                 <p>LinkedIn</p>
-              </a> */}
+              </a>
             </div>
             <div className="otherMed">
               <a href="mailto:aadityajujagar@gmail.com">

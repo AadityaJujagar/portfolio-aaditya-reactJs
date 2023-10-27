@@ -1,6 +1,6 @@
 import React from "react";
 import Line4 from "../../images/SVGs/Line4.svg";
-// import LinkedIn from "../../images/SVGs/Linkedin.svg";
+import LinkedIn from "../../images/SVGs/Linkedin.svg";
 import Gmail from "../../images/SVGs/Gmail.svg";
 import Phone from "../../images/SVGs/vector.svg";
 import "./contactsec.css";
@@ -32,12 +32,12 @@ function ContactSec() {
           </p>
           <div className="conItems">
             <p className="msgMe">Message me here</p>
-            {/* <div className="linkedIn">
-              <a href="https://linkedin.com/in/aaditya-jujagar">
+            <div className="linkedIn">
+              <a href="https://linkedin.com/in/aadityajujagar/">
                 <img src={LinkedIn} alt="" />
-                <p className="hrefText">/AadityaJujagar</p>
+                <p className="hrefText">In/AadityaJujagar</p>
               </a>
-            </div> */}
+            </div>
             <div className="Gmail">
               <a href="mailto:aadityajujagar@gmail.com">
                 <img src={Gmail} alt="" />
