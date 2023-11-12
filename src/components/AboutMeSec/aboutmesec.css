@@ -104,10 +104,9 @@
 #abtMeImg3 {
   position: absolute;
   z-index: 1;
-  left: 550px;
+  right: 0;
   top: 38px;
   flex-shrink: 0;
-  scale: 0.8;
 }
 
 #abtMeImg4 {
