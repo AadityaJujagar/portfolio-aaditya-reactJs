@@ -50,14 +50,14 @@ function HeroSec() {
           </a>
         </div>
         <div className="heroRHS">
-          <img src={Logo} className="heroRHSLogo" alt="" />
+          {/* <img src={Logo} className="heroRHSLogo" alt="" /> */}
           <img src={HeroImg} className="heroImg" alt="" />
           <div className="heroStatus">
             <img className="heroStatusImg" src={BlockPrimary} alt="" />
             <p>Currently looking for a</p>
             <span>MERN-Stack dev job</span>
           </div>
-          <img src={DotsFrame1} className="dotFrame" alt="" />
+          {/* <img src={DotsFrame1} className="dotFrame" alt="" /> */}
         </div>
       </section>
     </div>
