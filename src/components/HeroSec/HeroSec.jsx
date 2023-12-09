@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import Logo from "../../images/SVGs/Logo.svg";
-import DotsFrame1 from "../../images/SVGs/DotsFrame1.svg";
 import HeroImg from "../../images/projectPics/Aaditya1.png";
 import BlockPrimary from "../../images/SVGs/SquareBlockPrim.svg";
 import "./herosec.css";
