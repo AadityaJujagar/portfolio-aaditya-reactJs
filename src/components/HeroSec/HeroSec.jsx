@@ -52,8 +52,8 @@ function HeroSec() {
           <img src={HeroImg} className="heroImg" alt="" />
           <div className="heroStatus">
             <img className="heroStatusImg" src={BlockPrimary} alt="" />
-            <p>Currently looking for a</p>
-            <span>MERN-Stack dev job</span>
+            <p>Open to work as a</p>
+            <span>MERN-Stack developer</span>
           </div>
           {/* <img src={DotsFrame1} className="dotFrame" alt="" /> */}
         </div>
